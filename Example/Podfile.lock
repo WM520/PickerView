@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PickerView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - PickerView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  PickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PickerView: 713bb8dde1db61f1045d03f1c0d20e8ad6df5e23
+
+PODFILE CHECKSUM: 804efa68b1af302c84832436aa3a4a8ebbc04880
+
+COCOAPODS: 1.8.4
